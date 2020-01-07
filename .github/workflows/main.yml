@@ -12,6 +12,8 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, world!
     - uses: danspano/basic_action@master
+      with:
+        milliseconds: 1000
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
